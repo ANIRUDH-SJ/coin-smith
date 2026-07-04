@@ -7,3 +7,4 @@ web/bundle.js.map
 .env
 *.log
 .DS_Store
+.vercel
