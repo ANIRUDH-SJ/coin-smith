@@ -1,5 +1,7 @@
 # Coin Smith
 
+**🔗 Live demo — [coin-smith-nine.vercel.app](https://coin-smith-nine.vercel.app)**
+
 A **safe Bitcoin PSBT transaction builder**. Given a set of UTXOs, one or more payment outputs,
 a change template, and a target fee rate, it selects coins, constructs an unsigned transaction,
 and exports a standards-compliant **PSBT (BIP-174)** — along with a machine-checkable JSON report
