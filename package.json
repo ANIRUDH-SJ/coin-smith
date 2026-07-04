@@ -1,0 +1,27 @@
+{
+  "name": "coin-smith",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && node build-web.js",
+    "start": "node dist/server.js",
+    "cli": "node dist/cli.js",
+    "test": "node dist/test.js"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.6",
+    "express": "^4.19.2",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "esbuild": "^0.27.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.7.3"
+  }
+}

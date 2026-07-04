@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Smith</title>
+    <style>
+        /* Reset & Base */
+        :root {
+            --bg: #f5f5f5;
+            --fg: #111;
+            --accent: #ff5e00; /* Bitcoin Orange-ish but sharper */
+            --border: #111;
+            --mono: 'JetBrains Mono', 'Fira Code', monospace;
+            --sans: 'Inter', system-ui, -apple-system, sans-serif;
+            --pad: 1rem;
+        }
+        
+        * { box-sizing: border-box; }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--fg);
+            font-family: var(--sans);
+            line-height: 1.5;
+        }
+
+        #root {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="bundle.js"></script>
+</body>
+</html>
